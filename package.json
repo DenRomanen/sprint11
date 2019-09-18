@@ -1,5 +1,6 @@
 {
-  "name": "sprint-11vers1",
+  "name": "sprint-11",
+  "homepage": "https://denromanen.github.io/sprint11/.",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -35,6 +36,6 @@
     "dev": "NODE_ENV=development webpack-dev-server --mode development --open --watch",
     "deploy": "NODE_ENV=production gh-pages -d dist"
   },
-  "author": "",
+  "author": "Denis Romanenko",
   "license": "ISC"
 }

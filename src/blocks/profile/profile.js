@@ -1,11 +1,11 @@
-import { Popup } from "./popup";
+import { Popup } from "../popup/popup";
 class PopupProfile extends Popup {
   constructor() {
     super();
     this.body = this.popupProfileBody();
   }
   popupProfileBody() {
-    const closeIcon = require("../images/close.svg");
+    const closeIcon = require("../../images/close.svg");
     const body = `<div class="popup">
       <div class="popup__content">
         <img src="${closeIcon}" alt="" class="popup__close" />

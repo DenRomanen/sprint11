@@ -1,4 +1,4 @@
-import { Card } from "./card";
+import { Card } from "../place-card/place-card";
 
 class CardList {
   constructor(container, arrayCards) {

@@ -12,10 +12,10 @@
     <div class="root">
       <header class="header root__section">
         <img
-          src="<%=require('../images/logo.svg')%>"
+          src="<%=require('./images/logo.svg')%>"
           alt="mesto logo"
           class="logo"
-        />
+        /><!---->
       </header>
       <div class="profile root__section">
         <div class="user-info">
@@ -32,7 +32,7 @@
       <div class="image-fullscreen">
         <div class="image-fullscreen__content">
           <img
-            src="<%=require('../images/close.svg')%>"
+            src="<%=require('./images/close.svg')%>"
             alt=""
             class="popup__close"
           />
@@ -49,12 +49,5 @@
       type="module"
       src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"
     ></script>
-    <script type="module" src="./api.js"></script>
-    <script type="module" src="./card.js"></script>
-    <script type="module" src="./cardList.js"></script>
-    <script type="module" src="./popup.js"></script>
-    <script type="module" src="./popupProfile.js"></script>
-    <script type="module" src="./validatForm.js"></script>
-    <script type="module" src="./XXLImage.js"></script>
   </body>
 </html>

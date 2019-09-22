@@ -1,5 +1,5 @@
 import { Api } from "../../js/api";
-import { url, token } from "../../src/index";
+import { url, token } from "../../index";
 
 class Card {
   constructor(name, link, likeLength, idCard, developerName, likesName) {

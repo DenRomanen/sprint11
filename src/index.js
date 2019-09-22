@@ -1,11 +1,11 @@
 import "./style.css";
-import { Card } from "../blocks/place-card/place-card";
-import { Api } from "../js/api";
-import { CardList } from "../blocks/places-list/palce-list";
-import { Popup } from "../blocks/popup/popup";
-import { PopupProfile } from "../blocks/profile/profile";
-import { xxlImage } from "../blocks/image-fullscreen/image-fullscreen";
-import { validity } from "../js/validatForm";
+import { Card } from "./blocks/place-card/place-card";
+import { Api } from "./js/api";
+import { CardList } from "./blocks/places-list/palce-list";
+import { Popup } from "./blocks/popup/popup";
+import { PopupProfile } from "./blocks/profile/profile";
+import { xxlImage } from "./blocks/image-fullscreen/image-fullscreen";
+import { validity } from "./js/validatForm";
 
 // переменные
 const serverUrl =
